@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+	<Appenders>
+		<!-- Appender for Folder 1 -->
+		<File name="QuestionTableSchemaValidation"
+			fileName="Logs/app.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+		</File>
+
+		<!-- Appender for Folder 2 -->
+		<File name="SubjectTableSchemaValidation"
+			fileName="Logs/app.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+		</File>
+
+		<!-- Console Appender -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- Logger for SubjectTableSchemaValidation -->
+		<Logger name="com.quiz_app.testcases" level="all" additivity="false">
+			<AppenderRef ref="SubjectTableSchemaValidation" />
+			<AppenderRef ref="Console" />
+		</Logger>
+
+		<!-- Logger for QuestionTableSchemaValidation -->
+		<Logger name="com.quiz_app.testcases" level="all" additivity="false">
+			<AppenderRef ref="QuestionTableSchemaValidation" />
+			<AppenderRef ref="Console" />
+		</Logger>
+	</Loggers>
+</Configuration>

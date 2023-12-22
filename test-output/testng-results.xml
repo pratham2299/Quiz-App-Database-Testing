@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-22T17:11:40 IST" name="Suite" finished-at="2023-12-22T17:11:41 IST" duration-ms="683">
+    <groups>
+    </groups>
+    <test started-at="2023-12-22T17:11:40 IST" name="Test" finished-at="2023-12-22T17:11:41 IST" duration-ms="683">
+      <class name="com.quiz_app.testcases.QuestionTableSchemaValidation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="setUp" finished-at="2023-12-22T17:11:41 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTableExist()[pri:1, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testTableExist" finished-at="2023-12-22T17:11:41 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableExist -->
+        <test-method signature="testTableNameConvention()[pri:2, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testTableNameConvention" finished-at="2023-12-22T17:11:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableNameConvention -->
+        <test-method signature="testColumnNameConvention()[pri:3, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testColumnNameConvention" finished-at="2023-12-22T17:11:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColumnNameConvention -->
+        <test-method signature="testColumnExist()[pri:4, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testColumnExist" finished-at="2023-12-22T17:11:41 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColumnExist -->
+        <test-method signature="testTotalNoOfColumnsInTable()[pri:5, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testTotalNoOfColumnsInTable" finished-at="2023-12-22T17:11:41 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalNoOfColumnsInTable -->
+        <test-method signature="testDatatypeOfColumn()[pri:6, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testDatatypeOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatatypeOfColumn -->
+        <test-method signature="testSizeOfColumn()[pri:7, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testSizeOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSizeOfColumn -->
+        <test-method signature="testNullFieldsOfColumn()[pri:8, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testNullFieldsOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullFieldsOfColumn -->
+        <test-method signature="testColumnKeyOfColumn()[pri:9, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="testColumnKeyOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColumnKeyOfColumn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.quiz_app.testcases.QuestionTableSchemaValidation@162be91c]" started-at="2023-12-22T17:11:41 IST" name="tearDown" finished-at="2023-12-22T17:11:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.quiz_app.testcases.QuestionTableSchemaValidation -->
+      <class name="com.quiz_app.testcases.SubjectTableSchemaValidation">
+        <test-method signature="testTableExist()[pri:1, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testTableExist" finished-at="2023-12-22T17:11:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableExist -->
+        <test-method signature="testTableNameConvention()[pri:2, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testTableNameConvention" finished-at="2023-12-22T17:11:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableNameConvention -->
+        <test-method signature="testColumnNameConvention()[pri:3, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testColumnNameConvention" finished-at="2023-12-22T17:11:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColumnNameConvention -->
+        <test-method signature="testColumnExist()[pri:4, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testColumnExist" finished-at="2023-12-22T17:11:41 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColumnExist -->
+        <test-method signature="testTotalNoOfColumnsInTable()[pri:5, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testTotalNoOfColumnsInTable" finished-at="2023-12-22T17:11:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalNoOfColumnsInTable -->
+        <test-method signature="testDatatypeOfColumn()[pri:6, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testDatatypeOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatatypeOfColumn -->
+        <test-method signature="testSizeOfColumn()[pri:7, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testSizeOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSizeOfColumn -->
+        <test-method signature="testNullFieldsOfColumn()[pri:8, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testNullFieldsOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullFieldsOfColumn -->
+        <test-method signature="testColumnKeyOfColumn()[pri:9, instance:com.quiz_app.testcases.SubjectTableSchemaValidation@1992eaf4]" started-at="2023-12-22T17:11:41 IST" name="testColumnKeyOfColumn" finished-at="2023-12-22T17:11:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColumnKeyOfColumn -->
+      </class> <!-- com.quiz_app.testcases.SubjectTableSchemaValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

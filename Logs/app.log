@@ -1,0 +1,118 @@
+17:11:41.343 [main] INFO  com.quiz_app.testcases.BaseTest - Database Connection Started
+17:11:41.437 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - question
+17:11:41.508 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Table name is valid.
+
+17:11:41.518 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.518 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.519 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.519 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.519 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.519 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.519 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.519 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.519 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.520 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.520 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column name is valid.
+
+17:11:41.534 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question_id' exists
+
+17:11:41.534 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question_type' exists
+17:11:41.534 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question' exists
+17:11:41.534 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option1' exists
+17:11:41.534 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option2' exists
+17:11:41.534 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option3' exists
+17:11:41.534 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option4' exists
+17:11:41.535 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option5' exists
+17:11:41.535 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'correct_option' exists
+17:11:41.535 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'explanation' exists
+17:11:41.535 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'subject_name' exists
+17:11:41.545 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Table 'question' has 11 columns.
+
+17:11:41.553 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'correct_option' have the expected data type.VARCHAR
+17:11:41.553 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'explanation' have the expected data type.VARCHAR
+17:11:41.553 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option1' have the expected data type.VARCHAR
+17:11:41.553 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option2' have the expected data type.VARCHAR
+17:11:41.553 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option3' have the expected data type.VARCHAR
+17:11:41.553 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option4' have the expected data type.VARCHAR
+17:11:41.554 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option5' have the expected data type.VARCHAR
+17:11:41.554 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question' have the expected data type.VARCHAR
+17:11:41.554 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question_id' have the expected data type.INT
+17:11:41.554 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question_type' have the expected data type.VARCHAR
+17:11:41.554 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'subject_name' have the expected data type.VARCHAR
+17:11:41.565 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'correct_option' have the expected column type.= 100
+17:11:41.566 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'explanation' have the expected column type.= 255
+17:11:41.566 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option1' have the expected column type.= 100
+17:11:41.566 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option2' have the expected column type.= 100
+17:11:41.566 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option3' have the expected column type.= 100
+17:11:41.567 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option4' have the expected column type.= 100
+17:11:41.567 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option5' have the expected column type.= 100
+17:11:41.567 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question' have the expected column type.= 1000
+17:11:41.567 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'question_id' have the expected column type.= int
+17:11:41.567 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question_type' have the expected column type.= 50
+17:11:41.568 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'subject_name' have the expected column type.= 100
+17:11:41.579 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'correct_option' have the expected is null value.= NO
+17:11:41.579 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'explanation' have the expected is null value.= NO
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option1' have the expected is null value.= YES
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option2' have the expected is null value.= YES
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option3' have the expected is null value.= YES
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option4' have the expected is null value.= YES
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'option5' have the expected is null value.= YES
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question' have the expected is null value.= NO
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'question_id' have the expected is null value.= NO
+17:11:41.580 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'question_type' have the expected is null value.= NO
+17:11:41.581 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - Column 'subject_name' have the expected is null value.= NO
+17:11:41.590 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'correct_option' have the expected is column key.= 
+17:11:41.590 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'explanation' have the expected is column key.= 
+17:11:41.590 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'option1' have the expected is column key.= 
+17:11:41.591 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'option2' have the expected is column key.= 
+17:11:41.591 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'option3' have the expected is column key.= 
+17:11:41.591 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'option4' have the expected is column key.= 
+17:11:41.591 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'option5' have the expected is column key.= 
+17:11:41.592 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'question' have the expected is column key.= 
+17:11:41.592 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'question_id' have the expected is column key.= PRI
+17:11:41.592 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'question_id' have the expected is column key.= PRI
+17:11:41.592 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'question_type' have the expected is column key.= 
+17:11:41.592 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'subject_name' have the expected is column key.= MUL
+17:11:41.592 [main] INFO  com.quiz_app.testcases.QuestionTableSchemaValidation - 
+Column 'subject_name' have the expected is column key.= MUL
+17:11:41.602 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - subject
+17:11:41.609 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - Table name is valid.
+
+17:11:41.617 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - Column name is valid.
+
+17:11:41.626 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - Column 'subject_name' exists
+
+17:11:41.634 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - Table 'subject' has 1 columns.
+
+17:11:41.644 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - Column 'subject_name' have the expected data type.VARCHAR
+17:11:41.652 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - 
+Column 'subject_name' have the expected column type.= varchar(100)
+17:11:41.664 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - 
+Column 'subject_name' have the expected is null value.= NO
+17:11:41.673 [main] INFO  com.quiz_app.testcases.SubjectTableSchemaValidation - 
+Column 'subject_name' have the expected is column key.= PRI
+17:11:41.679 [main] INFO  com.quiz_app.testcases.BaseTest - Database Connection Closed
